@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Books25 - Books are the window to whole new world</title>
+
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">        <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">                                            <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">                                      <!-- Font awesome -->
+  <link rel="stylesheet" href="css/tooplate-style.css">                                           <!-- Templatemo style -->
+
+  <script>
+    var renderPage = true; 
+
+    if (navigator.userAgent.indexOf('MSIE') !== -1
+      || navigator.appVersion.indexOf('Trident/') > 0) {
+      /* Microsoft Internet Explorer detected in. */
+      alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+      renderPage = false;
+    }
+  </script>
+  <style>
+    .im{
+    width: 144px; height:auto;
+    }
+    .im2{
+      height: 250px;
+      width: 250px;
+
+    }
+
+        .com_img{
+            opacity: 1;
+            transition: .5s ease;
+            border: 2px solid white;
+            margin-top: 30px;
+            height: 170px;
+            width: 220px;
+            
+        }
+
+        .inside-img {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            font-weight: bold; 
+          
+        }
+
+        .wrap {
+            position: relative;
+            width: 250px;
+           
+            z-index:144;
+            
+        }
+
+        /*.wrap:hover .inside-img {
+            opacity: 1;
+            font-weight: Bold;
+        }
+
+        .wrap:hover .com_img{
+            opacity: 0.7;
+            background: rgba(113, 110, 110,0.9);
+        }*/
+
+        .text {
+            color: white;
+            font-size: 25px;
+            font-weight: Bold;
+            padding: 20px 40px;
+            background-color: rgb(113, 110, 110);
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+  <!-- Loader -->
+    <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <div class="tm-main">
+
+    <div class="tm-welcome-section">
+    
+      <div class="container tm-navbar-container">
+        <div class="row">
+          <div class="col-xl-12">
+            <nav class="navbar navbar-expand-sm">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a href="index.html" class="nav-link tm-nav-link tm-text-white active">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="novels.html" class="nav-link tm-nav-link tm-text-white">Novels</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link tm-nav-link tm-text-white">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      
+      </div>
+      <div class="container text-center tm-welcome-container">
+        <div class="tm-welcome">
+          <i class="fas tm-fa-big fa-book tm-fa-mb-big"></i>
+          <h1 class="text-uppercase mb-3 tm-site-name">Books25</h1>
+          <p class="tm-site-description">Place Where You Can find all reading material you need</p>
+        </div>
+      </div>
+
+    </div>
+    <br>
+     
+    <center>
+  <img src="img/insertion-140x140-04.jpg" class="im" alt="">
+    <h1>DTU</h1>
+    </center>
+    
+
+      <div class="row tm-albums-container grid">
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+            <center>
+            <img src="img/aktu/cse.png" alt="Image" class="img-fluid im2 ">
+                <h4>Previous year Question Papers</h4>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    First years
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Second year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                    Third Year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                                    Final Year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" >
+                            <div class="card-body">
+                                <a href="p2015.pdf" download>2015</a><br>
+                                <a href="p2015.pdf" download>2015</a><br>
+                                <a href="p2015.pdf" download>2015</a><br>
+                                <a href="p2015.pdf" download>2015</a><br>                    
+                            </div>
+                        </div>
+                    </div>
+            </center>
+        </figure>
+        </div>
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+              <center>
+            <img src="img/aktu/ec.png" alt="Image" class="img-fluid im2">
+            <h4>Previous year Question Papers</h4>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                    First years
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse show" aria-labelledby="headingOne" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Second year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingTwo" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Third Year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingTwo" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Final Year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseEight" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <a href="p2015.pdf" download>2015</a><br>
+                                <a href="p2015.pdf" download>2015</a><br>
+                                <a href="p2015.pdf" download>2015</a><br>
+                                <a href="p2015.pdf" download>2015</a><br>                    
+                            </div>
+                        </div>
+                    </div>
+            </center>
+          </figure>
+        </div>
+        
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+              <center>
+            <img src="img/aktu/en.png" alt="Image" class="img-fluid im2">
+            <h4>Previous year Question Papers</h4>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseOne">
+                                    First years
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseNine" class="collapse show" aria-labelledby="headingOne" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTwo">
+                                    Second year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTen" class="collapse" aria-labelledby="headingTwo">
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapseTwo">
+                                    Third Year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse11" class="collapse" aria-labelledby="headingTwo" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapseTwo">
+                                    Final Year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse12" class="collapse" aria-labelledby="headingTwo" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+                
+            </center> 
+          </figure>
+        </div>
+      <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+        <figure class="effect-sadie">
+            <center>
+          <img src="img/aktu/civil.png" alt="Image" class="img-fluid im2">
+          <h4>Previous year Question Papers</h4>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse14" aria-expanded="true" aria-controls="collapseOne">
+                                    First years
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse14" class="collapse show" aria-labelledby="headingOne" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapseTwo">
+                                    Second year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse15" class="collapse" aria-labelledby="headingTwo" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapseTwo">
+                                    Third Year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse16" class="collapse" aria-labelledby="headingTwo" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapseTwo">
+                                    Final Year
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse17" class="collapse" aria-labelledby="headingTwo" >
+                            <div class="card-body">
+                                <h4>First Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                                <h4>Second Sem</h4>
+                                <a href="p2015.pdf" download>2016</a><br>
+                                <a href="p2015.pdf" download>2017</a><br>
+                                <a href="p2015.pdf" download>2018</a><br>
+                                <a href="p2015.pdf" download>2019</a><br>
+                            </div>
+                        </div>
+                    </div>
+            </center>
+        </figure>
+      </div>
+    </div>
+
+
+      
+      <div class="container">  
+      <div class="row tm-mb-big tm-subscribe-row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 tm-bg-gray tm-subscribe-form">
+          <h3 class="tm-text-pink tm-mb-30">Our Motivation</h3>
+          <p class="tm-mb-30">Knowledge should be free off the worldly boundaries </p>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 img-fluid pl-0 tm-subscribe-img"></div>
+      </div>
+
+      <div class="row tm-mb-medium">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+          <h4 class="mb-4 tm-font-300">Latest Albums</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Sed fringilla consectetur</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Mauris porta nisl quis</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Quisque maximus quam nec</a>
+          <a href="#" class="tm-text-blue-dark d-block">Class aptent taciti sociosqu ad</a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+          <h4 class="mb-4 tm-font-300">Our Pages</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Nam dapibus imperdiet</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Primis in faucibus orci</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Sed interdum blandit dictum</a>
+          <a href="#" class="tm-text-blue-dark d-block">Donec non blandit nisl</a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <h4 class="mb-4 tm-font-300">Quick Links</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Nullam scelerisque mauris</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Vivamus tristique enim non orci</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Luctus et ultrices posuere</a>
+          <a href="#" class="tm-text-blue-dark d-block">Cubilia Curae</a>
+        </div>
+      </div>
+      <footer class="row">
+        <div class="col-xl-12">
+          <p class="text-center p-4">Copyright &copy; <span class="tm-current-year">2020</span> Books25 
+          
+          - Design:  Webworks25</p>
+        </div>
+      </footer>
+
+    </div> <!-- .container -->
+
+  </div> <!-- .main -->
+
+  <!-- load JS -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.2.1.slim.min.js"></script> <!-- https://jquery.com/ -->
+  <script>
+
+    /* DOM is ready
+    ------------------------------------------------*/
+    $(function () {
+
+      if (renderPage) {
+        $('body').addClass('loaded');
+      }
+
+      $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+    });
+
+  </script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <!-- ALL PLUGINS -->
+            <script src="js/jquery.superslides.min.js"></script>
+            <script src="js/bootstrap-select.js"></script>
+            <script src="js/inewsticker.js"></script>
+            <script src="js/bootsnav.js."></script>
+            <script src="js/images-loded.min.js"></script>
+            <script src="js/isotope.min.js"></script>
+            <script src="js/owl.carousel.min.js"></script>
+            <script src="js/baguetteBox.min.js"></script>
+            <script src="js/form-validator.min.js"></script>
+            <script src="js/contact-form-script.js"></script>
+            <script src="js/custom.js"></script>
+
+</body>
+</html>
